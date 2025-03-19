@@ -1,0 +1,19 @@
+get all book:/api/v2/resources/books/all
+method:GET
+
+
+get book by filter:/api/v2/resources/books?id=1&published=1982&author=edwin
+method:GET
+
+
+add book:/api/v2/resources/books
+method:POST
+SAMPLE JSON  PAYLOAD:
+{
+	"title":"Test Edwin",
+	"author":"Edwin",
+	"published":"2023",
+	"first_sentence":"Test Edwin"
+}
+
+
